@@ -350,12 +350,6 @@ h4{
  to {opacity: 1}
 }
 
-@media only screen and (max-width: 768px) {
-    h1 {
-         font-size: 12px;
-         letter-spacing: 4px;
-    }
-}
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
