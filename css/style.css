@@ -52,6 +52,34 @@ li{list-style:none}
     
     }
 
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    max-width: 100%; /* Full width */
+    max-height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+   }
+   
+   
+   /* Modal Content */
+   .modalContent {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    max-height: 100%;
+
+     overflow: auto; 
+   
+   }
+
 }
 
 
@@ -192,6 +220,12 @@ h4{
     font-size: 18px;
     text-align: center;
     font-weight: 40;
+
+}
+
+#contact{
+
+    cursor: pointer;
 
 }
 
@@ -396,6 +430,8 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+/*
 @media screen and (max-width: 600px) {
  .col-25, .col-75, input[type=submit] {
    width: 100%;
@@ -403,7 +439,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
 }
 
-
+*/
 
 
 /* ---- particles.js container ---- */
