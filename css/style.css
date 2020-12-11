@@ -25,6 +25,35 @@ li{list-style:none}
 /* ---- base ---- */
 
 
+@media Screen and (max-width: 750px) {
+
+    .newLogo {
+
+    
+        min-width: 125px;
+        width: 15%;
+        margin:50px; /* Required */
+        position: absolute; /* Required */
+        top:0; /* Aligns at the top */
+        left:0;right:0; /* Aligns horizontal center */
+        
+    
+    }
+
+    .symbol {
+
+    
+        
+        margin:100px; /* Required */
+        position: absolute; /* Required */
+        top: 0; /* Aligns at the top */
+        left:0;right:0; /* Aligns horizontal center */
+        
+    
+    }
+
+}
+
 
 html,body{ 
 	width:100%;
